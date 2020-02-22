@@ -62,7 +62,7 @@ double d = obj.getNumber("response").doubleValue();
 boolean b = obj.get("byebye").asBoolean();
 ```
 
-You can even dynamially cast `JsonValue`s as needed.
+You can even dynamically cast `JsonValue`s as needed.
 
 ```Java
 boolean b = obj.get("byebye").asBoolean();
